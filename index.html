@@ -1,0 +1,22 @@
+<html>
+
+    <head>
+        <title>In Picture</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body onload="initGame()" onkeyup="handleKey(event)">
+        <div class="container">
+            <img class="back-img" src="img/back.png" />
+            <div class="pics"></div>
+            <div class="options"></div>
+            <div class="modal">
+                <button class="btn-close" onclick="closeModal()">x</button>
+                <h3></h3>
+                <button class="btn-new-game" onclick="initGame()">New Game</button>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>

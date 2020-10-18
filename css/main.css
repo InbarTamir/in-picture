@@ -1,0 +1,64 @@
+body {
+    background-color: darkred;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.back-img {
+    height: 150px;
+    margin-right: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pics {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid white;
+    border-radius: 20%;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.options {
+    margin: 20px auto;
+}
+
+.opts {
+    background-color: goldenrod;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin: 7px auto;
+    width: 390px;
+}
+
+.opts:hover {
+    cursor: pointer;
+}
+
+.modal {
+    background-color: lightseagreen;
+    display: none;   
+    position: relative;
+    top:-200px;
+    margin: auto;
+    padding: 5px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(0, 183, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn-close {
+    float:right;
+}
